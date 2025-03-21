@@ -11,7 +11,7 @@ ros2 launch kiss_icp odometry.launch.py bagfile:=(dir_bag) topic:=(topic_name)
 
 STEP 2 bag -> session
 
-Tworzenie Folder
+Tworzenie Folderu
 
 mkdir ros2_ws
 
