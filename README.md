@@ -47,6 +47,7 @@ Uruchamia launch file, przekazując ścieżkę do pliku .bag i nazwę tematu.
 ros2 launch kiss_icp odometry.launch.py bagfile:=(dir_bag) topic:=(topic_name)
 
 STEP 2 bag -> session
+
 Uruchomienie
 
 ros2 run cpp_pubsub listener input_dir_bag output_dir
