@@ -37,7 +37,7 @@ colcon build
 
 Uruchomienie
 
-ros2 run cpp_pubsub listener input_dir output_dir
+ros2 run cpp_pubsub listener input_dir_bag output_dir
 
 STEP 1: bag -> kiss
 
@@ -77,4 +77,4 @@ colcon build
 
 Running
 
-ros2 run cpp_pubsub listener input_dir output_dir
+ros2 run cpp_pubsub listener input_dir_bag output_dir
