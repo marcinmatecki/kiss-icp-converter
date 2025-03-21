@@ -24,11 +24,11 @@ klon z repo(z kropką na końcu)
 
 git clone https://github.com/marcinmatecki/kiss-icp-converter.git .
 
-Inicjuje submoduły w repozytorium.
+Inicjacja submoduły w repozytorium.
 
 git submodule init
 
-Pobiera zawartość submodułów, w tym zagnieżdżone submoduły.
+Pobieranie zawartość submodułów, w tym zagnieżdżone submoduły.
 
 git submodule update --recursive
 
