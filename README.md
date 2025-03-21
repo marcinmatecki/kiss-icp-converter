@@ -28,7 +28,7 @@ Inicjacja submoduły w repozytorium.
 
 git submodule init
 
-Pobieranie zawartość submodułów, w tym zagnieżdżone submoduły.
+Pobieranie zawartości submodułów, w tym zagnieżdżone submoduły.
 
 git submodule update --recursive
 
