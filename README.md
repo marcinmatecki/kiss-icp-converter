@@ -2,29 +2,37 @@
 STEP 1 bag->kiss
 
 Nagrywanie danych z tematów 
+
 ros2 bag record -o bag_kiss /kiss/frame /kiss/odometry
 
 Uruchamia launch file, przekazując ścieżkę do pliku .bag i nazwę tematu.
+
 ros2 launch kiss_icp odometry.launch.py bagfile:=(dir_bag) topic:=(topic_name)
 
 STEP 2 bag -> session
 
 Tworzenie Folder
+
 mkdir ros2_ws
 
 Przejscie do ros2_ws
+
 cd ros2_ws
 
 klon z repo(z kropką na końcu)
+
 git clone https://github.com/marcinmatecki/kiss-icp-converter.git .
 
 Inicjuje submoduły w repozytorium.
+
 git submodule init
 
 Pobiera zawartość submodułów, w tym zagnieżdżone submoduły.
+
 git submodule update --recursive
 
 Kompilacja projektu
+
 colcon build
 
 Uruchomienie
