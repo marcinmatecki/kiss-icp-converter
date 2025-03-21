@@ -1,6 +1,15 @@
 # kiss-icp-converter
 
 
+Użyte repozytorium:
+kiss-icp z GitHub: https://github.com/PRBonn/kiss-icp
+laszip https://github.com/LASzip/LASzip.git
+
+
+Instalacja kiss
+
+pip install kiss-icp
+
 Tworzenie Folderu
 
 mkdir ros2_ws
@@ -42,6 +51,10 @@ ros2 run cpp_pubsub listener input_dir_bag output_dir
 
 --------------------------
 
+Instalation kiss
+
+pip install kiss-icp
+
 Creating a folder
 
 mkdir ros2_ws
@@ -78,7 +91,7 @@ ros2 launch kiss_icp odometry.launch.py bagfile:=(dir_bag) topic:=(topic_name)
 
 STEP 2: bag -> session
 
-
 Running
 
 ros2 run cpp_pubsub listener input_dir_bag output_dir
+
